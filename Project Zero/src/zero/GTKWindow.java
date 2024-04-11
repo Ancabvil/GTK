@@ -20,7 +20,7 @@ import org.gnome.gtk.WindowPosition;
 public class GTKWindow extends Window {
     
     public GTKWindow() {
-        setTitle("GTK from Java example");
+        setTitle("Ejemplo para usar pull request en Git");
         connect((DeleteEvent)(source, event) -> {
             Gtk.mainQuit();
             return false;
